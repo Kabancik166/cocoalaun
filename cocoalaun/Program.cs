@@ -21,10 +21,10 @@ class Program
                     HelpShow.ShowHelp(); // Вызов метода из HelpShow.cs
                     break;
                 case "settings":
-                    
+                    SettingsShow.SettingsShw();
                     break;
                 default:
-                    Console.WriteLine($"Неизвестный аргумент: {args[0]}");
+                    Console.WriteLine($"Invalid argument: {args[0]}");
                     break;
             }
         }
@@ -32,7 +32,7 @@ class Program
 
     static void ShowWelcomeMessage()
     {
-        Console.WriteLine("Welcome to Cocoa Laun! \nвведите $cocoalaun help чтобы получить справку по использованию программы");
+        Console.WriteLine("Welcome to Cocoa Laun! \nget help $ cocoalaun for help on the program used");
         Console.WriteLine("Ver:" + versi);
         Console.WriteLine("CocoaLaun - Minecraft Server Launcher");
         Console.WriteLine("\n By kabancik166");
