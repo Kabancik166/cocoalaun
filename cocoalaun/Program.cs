@@ -35,5 +35,6 @@ class Program
         Console.WriteLine("Welcome to Cocoa Laun! \nвведите $cocoalaun help чтобы получить справку по использованию программы");
         Console.WriteLine("Ver:" + versi);
         Console.WriteLine("CocoaLaun - Minecraft Server Launcher");
+        Console.WriteLine("\n By kabancik166");
     }
 }
