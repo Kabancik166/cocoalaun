@@ -7,7 +7,6 @@
     <list default="true" id="4e6f66b3-37eb-4568-a4ce-50c87d7e3dc6" name="Changes" comment="basic2">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cocoalaun/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cocoalaun/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cocoalaun/HelpShow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cocoalaun/HelpShow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cocoalaun/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cocoalaun/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cocoalaun/SettingsShow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cocoalaun/SettingsShow.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,27 +18,27 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2m1MYIFn47xAJ3dzDTQCFbyEqZu" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.cocoalaun.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.cocoalaun.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="cocoalaun" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/cocoalaun/bin/Debug/net8.0/cocoalaun" />
@@ -68,7 +67,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726239679263</updated>
-      <workItem from="1726239683179" duration="9424000" />
+      <workItem from="1726239683179" duration="10999000" />
+      <workItem from="1726297357647" duration="3937000" />
     </task>
     <task id="LOCAL-00001" summary="basic2">
       <option name="closed" value="true" />
@@ -78,7 +78,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726240833961</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="basic2">
+      <option name="closed" value="true" />
+      <created>1726250420175</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726250420176</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
