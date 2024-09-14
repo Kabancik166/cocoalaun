@@ -7,6 +7,7 @@ class Program
     
     static void Main(string[] args)
     {
+        ConfigManager.EnsureConfigExists();
         // Проверка наличия аргументов
         if (args.Length == 0)
         {

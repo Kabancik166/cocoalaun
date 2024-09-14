@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e6f66b3-37eb-4568-a4ce-50c87d7e3dc6" name="Changes" comment="Add SettingsShow.cs" />
+    <list default="true" id="4e6f66b3-37eb-4568-a4ce-50c87d7e3dc6" name="Changes" comment="Add Settings">
+      <change afterPath="$PROJECT_DIR$/cocoalaun/ConfigManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cocoalaun/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cocoalaun/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocoalaun/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cocoalaun/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocoalaun/SettingsShow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cocoalaun/SettingsShow.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +23,9 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2m1MYIFn47xAJ3dzDTQCFbyEqZu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -65,6 +73,7 @@
       <updated>1726239679263</updated>
       <workItem from="1726239683179" duration="10999000" />
       <workItem from="1726297357647" duration="4327000" />
+      <workItem from="1726306714629" duration="4956000" />
     </task>
     <task id="LOCAL-00001" summary="basic2">
       <option name="closed" value="true" />
@@ -90,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726306186193</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add Settings">
+      <option name="closed" value="true" />
+      <created>1726306820374</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726306820374</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +118,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="basic2" />
     <MESSAGE value="Add SettingsShow.cs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add SettingsShow.cs" />
+    <MESSAGE value="Add Settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Settings" />
   </component>
 </project>

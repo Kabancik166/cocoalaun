@@ -1,21 +1,20 @@
-using System;
-using System.IO;
 
 namespace CocoaLaun
 {
     public class SettingsShow
     {
-        public static string path_to_folder_server;
+        public static string PathToFolderServer;
         
         public static void SettingsShw()
         {
             string homeDirectory = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
             
-            path_to_folder_server = $"{homeDirectory}/myfolder";
+            PathToFolderServer = ConfigManager.GetConfigValue("path_to_folder_servers");
 
             Console.WriteLine("Welcome to Global Settings cocoalaun! \n");
-            Console.WriteLine("\n 1. Path to Servers cocoalaun = " + path_to_folder_server + 
+            Console.WriteLine("\n 1. Path to Servers cocoalaun = " + PathToFolderServer + 
                 " (To change the path, enter only the part after /home/username. For example, for the path /home/username/Desktop, simply enter /Desktop. Other methods of specifying the path are not supported.)");
+            Console.WriteLine("14. Restart Config    (Restart config:/)");
             Console.WriteLine("15. Exit Settings    (Exit Settings:/)");
 
             int input;
@@ -51,8 +50,8 @@ namespace CocoaLaun
                                 if (IsPathValid(inputServer))
                                 {
                                     string escapedPath = EscapeSpaces(inputServer);
-                                    path_to_folder_server = $"{homeDirectory}{escapedPath}";
-                                    Console.WriteLine("\nPath successfully updated to: " + path_to_folder_server);
+                                    ConfigManager.UpdateConfig("path_to_folder_servers", $"{homeDirectory}{escapedPath}");
+                                    Console.WriteLine("\nPath successfully updated to: " + PathToFolderServer);
                                     
                                     SettingsShw();
                                     return;
@@ -62,6 +61,10 @@ namespace CocoaLaun
                                     Console.WriteLine("\nInvalid path syntax. Please try again.");
                                 }
                             }
+                            
+                        case 14:
+                            ConfigManager.CreateConfig();
+                            SettingsShw();
                             break;
                         case 15:
                             validInput = true;
